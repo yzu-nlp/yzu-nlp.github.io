@@ -1,0 +1,366 @@
+
+<!-- saved from url=(0039)https://yzu-nlp.github.io// -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>自然语言处理(扬州大学）</title>
+  <script src="./main.js"></script><script src="./jquery.min.js"></script><link rel="stylesheet" href="./main.css">
+</head>
+
+<body><div class="section">
+  
+  <div class="top assignmentTitle">
+    自然语言处理
+  </div>
+
+  <div class="top nav">
+   2022年秋
+  </div>
+  <div class="top">
+    <a class="nav" href="https://yzu-nlp.github.io/#info">[课程信息]</a>
+    &nbsp;
+    <a class="nav" href="https://yzu-nlp.github.io/#schedule">[课程计划]</a>
+    &nbsp;
+    <a class="nav" href="https://yzu-nlp.github.io/#coursework">[课程设计]</a>
+    &nbsp;
+    <a class="nav" href="https://yzu-nlp.github.io/#faq">[常问问题]</a>
+ </div>
+<br>
+
+
+
+<div class="section">
+  <a name="info"><span class="header">课程信息</span></a>
+    <p class="subheader">任课教师:  <a href="https://qiang2100.github.io/">强继朋</a> </p>
+       
+  <p class="subheader">时间/地点:</p>
+    <ul>
+      <li>时间: 1-16周， 每周四上午1、2两节 8.00-9:40am
+      </li>
+      <li>地点: 07011310
+      </li>
+      <li>线上教学: 腾讯会议（602-268-4794）
+      </li>
+   </ul>
+
+
+  <p class="subheader">评分标准</p>
+  <ul>
+    <li><b>作业</b> (30%):
+    将有四个作业，包括书面和编程部分。每个作业都以应用程序为中心，也将加深您对理论概念的理解。
+    <b>注意:作业请独立完成。 如果是与别人讨论完成，请在作业最上面标注讨论同学的名字；否则，发现雷同，都没有成绩。</b>
+    <ul>
+        <li>作业 1: 语言模型 (7%)</li>  (Exercises 3.1-3.4, 3.6)
+        <li>作业 2: 文本分类、语义向量 (7%)</li>  <a href="https://yzu-nlp.github.io/homeworks/homework2.docx">作业题目</a> 
+        <li>作业 3: 神经网络、循环神经网络、LSTM (8%)</li><a href="https://yzu-nlp.github.io/homeworks/homework3.docx">作业题目</a> 
+        <li>作者 4: Transformer、机器翻译、预训练语言模型 (8%)</li><a href="https://yzu-nlp.github.io/homeworks/homework4.docx">作业题目</a> 
+
+    </ul>
+    </li>
+
+    <li><b>实验</b> (20%): 将有四次上机实验，通过动手编程，加深对概念的理解，实际使用NLP算法。
+    <b>注意:实验报告请独立撰写完成。 如果是与别人讨论完成，请在实验报告最下面对请教同学进行致谢；否则，发现雷同，都没有成绩。</b>
+     
+    <ul>
+        <li>实验 1: 构建N元语言模型 (5%)</li> <a href="https://yzu-nlp.github.io/exper/Experiment1.zip">实验1介绍</a> 
+        <li>实验 2: 基于机器学习的情感分类 (5%)</li> <a href="https://yzu-nlp.github.io/exper/Experiment2-student.zip">实验2介绍</a> 
+        <li>实验 3: 基于神经网络的情感分类 (5%)</li> <a href="https://yzu-nlp.github.io/exper/实验3.doc">实验3介绍</a>
+        <li>实验 4: 基于BERT的情感分类 (5%)</li>  <a href="https://yzu-nlp.github.io/exper/Exp4.doc">实验4介绍</a>
+    </ul>
+    实验报告模版 <a href="https://yzu-nlp.github.io/exper/report_template.docx">下载</a>
+    </li>
+
+    <li><b>期末考试</b> (50%): 考试周进行考试，闭卷考试，满分100分
+   </li>
+
+  </ul>
+
+  <!-- <p class="subheader">Contact</p>
+  Students should ask all course-related questions in the <a href="">Ed discussion</a> (not Piazza). For external enquiries, emergencies, or personal matters that you don't wish to put in a private Ed post, you can email us at cos484-584-staff@lists.cs.princeton.edu. -->
+
+  <!-- </div> -->
+  <!-- <p class="subheader">Useful Links:</p>
+    <ul>
+      <li>  <a href="">Canvas</a> </li>
+      <li>  <a href="">Ed</a> for all questions related to lectures, homeworks, and projects, and to find announcements. For external queries, emergencies, or personal matters, you can use a private Piazza post visible only to Instructors.</li>
+      <li>  Previous Offerings:  </li>
+    </ul> -->
+  <!--
+  <div class="section"><b>Grades</b>: click <a href="restricted/grades.html">here</a> to check your grades and autograder feedback.</div>-->
+  <p class="subheader">预备知识:</p>
+    <ul>
+    <li>需要: 概率论, 线性代数</li>
+    <li> 熟练使用Python: 作业和实验需要使用 Python, Numpy 和 PyTorch.</li>
+    <!-- <li> <a href="https://www.cs.princeton.edu/courses/archive/spring19/cos324/">COS 324</a> (or equivalent intro. to ML courses) is strongly recommended. </li> -->
+    </ul>
+
+  <p class="subheader">教材:</p>
+    <ul>
+      <li>Dan Jurafsky and James H. Martin. <a href="https://web.stanford.edu/~jurafsky/slp3/">Speech and Language Processing (3rd ed. draft).</a></li>
+      <li> 英文读起来困难，该书的翻译可以参考 <a href="https://www.kancloud.cn/drxgz/slp20201230/2316086">Speech and Language Processing (3rd ed. draft).</a> </li>
+    </ul>
+
+</div>
+
+
+  <div class="section">
+  <a name="schedule"><span class="header">课程计划</span></a>
+
+  <p>课程安排是暂定的，可能会更改。所有作业均应在周四上午8点前提交。 </p>
+
+  <table border="1" cellpadding="3" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" id="AutoNumber5" width="800">
+    <tbody><tr>
+      <td width="70" height="18"><b>Week</b></td>
+      <td width="100" height="18"><b>Date</b></td>
+      <td width="250" height="18"><b>Topics</b></td>
+      <td width="350" height="18"><b>Readings</b></td>
+      <td width="150" height="18"><b>Assignments</b></td>
+    </tr>
+    </tbody><tbody>
+  <tr>
+    <td>第1周</td>
+    <td>9月1日</td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec1.pdf">NLP介绍</a></td>
+    <td><a href="https://princeton-nlp.github.io/cos484/readings/advances_in_nlp.pdf">Advances in natural language processing</a></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td> 第2周 </td>
+    <td>9月8日</td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec2.pdf">语言模型</a></td>
+    <td><a href="https://web.stanford.edu/~jurafsky/slp3/3.pdf">J &amp; M 3.1-3.4</a></td>
+    <td>作业1 </td>
+  </tr>
+  <tr>
+    <td> 第3周 </td>
+    <td>9月15日</td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec3.pdf">文本分类-朴素贝叶斯</a></td>
+    <td><a href="https://web.stanford.edu/~jurafsky/slp3/4.pdf">J &amp; M 4.1-4.8</a></td>
+    <td></td>
+  </tr>
+	  
+  <tr>
+    <td> 第4周 </td>
+    <td>9月22日</td>
+    <td><a href="https://yzu-nlp.github.io/lectures/Logistic_Regression.pdf">文本分类-逻辑回归</a></td>
+    <td><a href="https://web.stanford.edu/~jurafsky/slp3/4.pdf">J &amp; M 4.1-4.8</a></td>
+    <td></td>
+  </tr>
+
+   
+  <tr>
+    <td> 第5周 <br> 第6周 </td>
+    <td>9月29日 <br> 10月6日</td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec4.pdf">向量语义:</a><br>
+	1. 词的表示<br>
+	2. 相似度度量<br>
+	3. TF-IDF<br>
+	4. Word2Vec
+	  </td>
+    <td>
+      <!--- <a href="https://web.stanford.edu/~jurafsky/slp3/5.pdf">J & M 5.1-5.6</a> -->
+      <a href="https://web.stanford.edu/~jurafsky/slp3/6.pdf">J &amp; M 6.2-6.4, 6.6</a>
+      <br><a href="https://www.aclweb.org/anthology/P14-1023.pdf">Don’t count, predict! A systematic comparison of context-counting vs. context-predicting semantic vectors</a>
+      <br><a href="https://arxiv.org/pdf/1301.3781.pdf">Efficient Estimation of Word Representations in Vector Space</a> (original word2vec paper)
+      <br><a href="https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf">Distributed representations of words and phrases and their compositionality</a> (negative sampling)
+      <!-- <br><a href="https://nlp.stanford.edu/pubs/glove.pdf">GloVe: Global Vectors for Word Representation</a>
+      <br><a href="https://arxiv.org/pdf/1607.04606.pdf">Enriching Word Vectors with Subword Information</a> -->
+    </td>
+    <td> 作业2</td>
+  </tr>
+
+  <tr>
+    <td> 第7周 <br> 第8周 </td>
+    <td>10月13 <br> 10月20日 </td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec5.pdf">神经语言模型: </a><br>
+	1. 神经元<br>
+	2. 前馈神经网络<br>
+	3. 神经语言模型<br>
+	4. 训练神经网络
+    </td>
+    <td>
+    <a href="https://web.stanford.edu/~jurafsky/slp3/7.pdf">J & M 7.1-7.8</a>
+      <br><a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probabilistic Language Model</a>
+      <br> <a href="https://princeton-nlp.github.io/cos484/readings/hmms-spring2013.pdf"> Notes from Michael Collins</a>
+     <br>
+     </td>
+    
+    <td> </td>
+  </tr>
+ 
+  <tr>
+    <td> 第9周 <br> 第10周 <br> 第11周 </td>
+    <td>10月27日  <br> 11月3日 <br> 11月10日 </td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec6.pdf">基于深度学习框架的序列处理:</a><br>
+	1. RNN<br>
+	2. LSTM<br>
+	3. Transformer
+    </td>
+    <td>
+      <!--
+      Notes from <a href="readings/em.pdf">Michael Collins</a> and (optional) <a href="readings/cs229-notes8.pdf">Andrew Ng</a>
+      -->
+      <a href="https://web.stanford.edu/~jurafsky/slp3/9.pdf">J&amp;M 9.1-9.8</a><br>
+      <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">The Unreasonable Effectiveness of Recurrent Neural Networks</a><br>
+      <a href="https://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a><br>
+      <a href="http://proceedings.mlr.press/v37/jozefowicz15.pdf">An Empirical Exploration of Recurrent Network Architectures</a><br>
+      <a href="https://arxiv.org/pdf/1603.01360.pdf">Neural Architectures for Named Entity Recognition</a> 
+    </td>
+    <td>作业3 </td>
+  </tr>
+ 
+   
+  <tr>
+    <td> 第12周 <br> 第13周 <br> 第14周 </td>
+    <td>  11月17日 <br> 11月24日 <br> 12月1日</td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec7.pdf">机器翻译: </a> <br>
+	1. 编码器解码器模型 <br>
+	2. 注意力机制<br>
+	3. Transformer的编码器-解码器<br>  
+	4. 波束搜索 <br>
+	5. 机器翻译评估 
+    </td>
+    <td><a href="https://web.stanford.edu/~jurafsky/slp3/10.pdf">J&amp;M 10.2-10.9</a><br>
+	    <a href="https://web.stanford.edu/~jurafsky/slp3/9.pdf">J&amp;M 9.4</a><br>
+    <a href="https://arxiv.org/pdf/1409.0473.pdf">Neural Machine Translation by Jointly Learning to Align and Translate</a><br>
+    <a href="https://arxiv.org/pdf/1706.03762.pdf">Attention Is All You Need</a><br>
+    <a href="https://nlp.seas.harvard.edu/2018/04/03/attention.html">The Annotated Transformer</a><br>
+    <a href="http://jalammar.github.io/illustrated-transformer/">The Illustrated Transformer</a>
+    </td>
+    <td>作业四 </td>
+  </tr>
+ 
+  
+  <tr>
+    <td>第15周<br>第16周</td>
+    <td>12月8日<br>12月15日</td>
+    <td><a href="https://yzu-nlp.github.io/lectures/lec8.pdf">预训练语言模型:</a> <br>
+	1. 双向Transformer编码器 <br>
+	2. 预训练(Pretraining)<br>
+	3. 微调(Fine-turning)<br>  
+	4. 提示学习(Prompting)
+    </td>
+    <td><a href="https://web.stanford.edu/~jurafsky/slp3/11.pdf">J&amp;M 11.1-11.6</a><br>
+	    <a href="https://arxiv.org/pdf/1802.05365.pdf">Deep contextualized word representations</a><br>
+    <a href="https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf">Improving Language Understanding by Generative Pre-Training</a><br>      
+    <a href="https://arxiv.org/pdf/1810.04805.pdf">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a><br>
+    <a href="https://arxiv.org/pdf/1907.10529.pdf">SpanBERT: Improving Pre-training by Representing and Predicting Spans</a><br>
+     <a href="https://aclanthology.org/2021.emnlp-main.243.pdf">The Power of Scale for Parameter-Efficient Prompt Tuning</a>
+     </td>
+    <td></td>
+  </tr>
+ 
+</tbody>
+  </table>
+
+  </div>
+
+
+<div class="section">
+  <a name="coursework"><span class="header">课程设计</span></a>
+
+
+  <p class="subheader">课题要求</p>
+  <div class="section">
+      
+  </div>
+
+  <div class="section"><b>分组介绍:</b>
+    自行分组，每个小组最好3个成员，也可以2个成员。建议分工如下：一个负责利用框架开发界面，一个负责NLP系统的部署，一个负责PPT和项目文档撰写。
+  </div>
+
+  <div class="section"><b>系统要求:</b>
+    <ul>
+    <li>需要开发一个带界面的可运行的系统，类似于“百度翻译系统”。</li>
+    <li>前台的框架可以采用：<b> layui </b>。  </li>
+    <li> 后台框架可以采用： <b> flask或django </b>。 </li>
+     <li>深度学习算法的包可以采用： <b> fairseq 或 huggingface </b> </li>
+     </ul>
+  </div>
+
+  <div class="section"><b>展示和提交的材料：</b>
+    <ul>
+      <li>PPT汇报</li>
+      <li>每个同学需分别撰写自己的课程设计报告</li>
+    </ul>
+  </div>
+  <div class="section"><b> 课程设计报告模版 <a href="https://yzu-nlp.github.io/exper/NLP课程设计-模版.docx">下载</a> </b>
+  </div>
+	
+	
+
+  <p class="subheader">课题1：“汉英”机器翻译系统的设计与实现</p>
+  
+  <div class="section"><b>介绍:</b>
+   类似百度翻译工具，编程开发一个英语到汉语或者汉语到英语的机器翻译系统，能够对输入的文本进行翻译。
+  </div>
+  <div class="section"><b>数据集下载地址：https://github.com/twairball/fairseq-zh-en</b> 
+  </div>
+	
+  <p class="subheader">课题2： 英文聊天机器人的设计与实现</p>
+
+  <div class="section"><b>介绍:</b>
+    训练的一个英文聊天机器人， 可以用于智能客服、在线问答、智能聊天等场景。
+  </div>
+  <div class="section"><b>数据集下载地址：https://github.com/gunthercox/chatterbot-corpus</b> 
+  </div>
+	
+  <p class="subheader">课题3：英文文档摘要系统的设计与实现</p>
+
+  <div class="section"><b>介绍:</b>
+    该系统实现一个英文单文档摘要的系统，用户输入一个文档，自动输出一个句子，输出的句子可以作为文档的标题。
+  </div>
+  <div class="section"><b>数据集址：训练模型可以使用CNN / Daily Mail，下载地址在：https://nlpprogress.com/english/summarization.html</b> 
+  </div>
+	
+  <p class="subheader">课题4：古文翻译系统的设计与实现</p>
+
+  <div class="section"><b>介绍:</b>
+   设计一个面向古文/现代文的翻译系统，该系统可以采用基于Transformer架构实现对古汉语的翻译。
+  </div>
+
+  <div class="section"><b>数据集下载地址：https://github.com/NiuTrans/Classical-Modern</b> 
+  </div>
+	
+ <p class="subheader">课题5：英文文本简化系统的设计与实现</p>
+
+  <div class="section"><b>介绍:</b>
+   文本简化是从句法结构、词汇等方面简化句子的内容，保持原有意思不变，增强机器或者人对内容的理解，<br>
+   特别是对那些识字率低、认知或语言障碍、非母语人员，或者文本语言知识有限的人。<br>
+   这一过程通常包括用更简单的对等词语替换困难或未知的短语，也包括将句法复杂的长句转换成较短、较不复杂的句子。
+  </div>
+
+  <div class="section"><b>数据集下载地址：https://github.com/luxinyu1/Trans-SS</b> 
+  </div>
+  
+<p class="subheader">课题6：成语转述系统的设计与实现</p>
+
+  <div class="section"><b>介绍:</b>
+   因为许多成语的意思不是字面所表达的意思，导致理解成语的意思非常困难，<br>
+   特别是对于对那些识字率低、认知或语言障碍、非母语人员，或者文本语言知识有限的人。<br>
+   该系统对包含成语的句子进行转述，输出相同意思不包含成语的句子。  
+  </div>
+
+  <div class="section"><b>数据集下载地址：https://github.com/jpqiang/Chinese-Idiom-Paraphrasing</b> 
+  </div>
+
+<br>
+<div class="section">
+  <a name="faq"><span class="header">常问问题</span></a>
+  <ul>
+    <li>
+      <b>问题:  作业是收纸质的还是电子版的?</b> <br>回答:  作业是收纸质版的，需统一在扬大作业纸上完成。
+    </li><br>
+    <li>
+      <b>问题: XXXX?</b> <br> 回答: ******
+    </li>
+  </ul>
+</div>
+
+
+<div class="section">
+<span class="header">  参考课程：</span>  <a href="https://princeton-nlp.github.io/cos484/">普林斯顿NLP课程</a>
+
+</div>
+
+
+</body></html>
